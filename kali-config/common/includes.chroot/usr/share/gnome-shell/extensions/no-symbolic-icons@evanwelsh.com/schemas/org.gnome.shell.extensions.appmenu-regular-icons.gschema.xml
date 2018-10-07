@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <enum id="com.evanwelsh.no-symbolic-icons.IconMode">
+        <value nick="Symbolic" value="0" />
+        <value nick="Regular" value="1" />
+        <value nick="Request" value="2" />
+    </enum>
+    <schema id="org.gnome.shell.extensions.no-symbolic-icons" path="/org/gnome/shell/extensions/no-symbolic-icons/">
+        <key name="icon-mode" enum="com.evanwelsh.no-symbolic-icons.IconMode">
+            <default>"Regular"</default>
+            <summary>Icon mode</summary>
+            <description>The icon mode for the AppMenu.</description>
+        </key>
+        <key name="app-menu" type="b">
+            <default>true</default>
+            <summary>App Menu</summary>
+            <description>Whether to apply the icon mode to the app menu.</description>
+        </key>
+        <key name="notifications" type="b">
+            <default>true</default>
+            <summary>Notifications</summary>
+            <description>Whether to apply the icon mode to notificaitons.</description>
+        </key>
+    </schema>
+</schemalist>

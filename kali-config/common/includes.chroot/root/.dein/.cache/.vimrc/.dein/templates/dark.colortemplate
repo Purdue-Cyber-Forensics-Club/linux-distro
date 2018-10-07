@@ -1,0 +1,180 @@
+# vim: ft=colortemplate fdm=marker
+
+# Information {{{
+# Mandatory
+Full name:   Dark
+Short name:  dark
+Author:      Myself <myself@somewhere.org>
+Maintainer:  Myself <myself@somewhere.org>
+# Optional
+Website:
+Description: Template for dark colorscheme
+License:
+Terminal Colors: 256
+Option Prefix: dark
+# }}}
+
+# Documentation {{{
+Include: _help.colortemplate
+# }}}
+
+Background: dark
+
+# Color palette {{{
+# Color name                GUI                  Base256    Base16 (optional)
+Color: black                rgb(  0,   0,   0)     ~        Black
+Color: red                  rgb(255,   0,   0)     ~        DarkRed
+Color: green                rgb(  0, 255,   0)     ~        DarkGreen
+Color: yellow               rgb(255, 255,   0)     ~        DarkYellow
+Color: blue                 rgb(  0,   0, 255)     ~        DarkBlue
+Color: magenta              rgb(255,   0, 255)     ~        DarkMagenta
+Color: cyan                 rgb(  0, 255, 255)     ~        DarkCyan
+Color: white                rgb(235, 235, 235)     ~        LightGrey
+Color: brightblack          rgb(210, 210, 210)     ~        DarkGrey
+Color: brightred            rgb(255, 100,   0)     ~        LightRed
+Color: brightgreen          rgb(100, 255,   0)     ~        LightGreen
+Color: brightyellow         rgb(255, 255, 100)     ~        LightYellow
+Color: brightblue           rgb(  0, 100, 255)     ~        LightBlue
+Color: brightmagenta        rgb(255, 100, 255)     ~        LightMagenta
+Color: brightcyan           rgb(100, 255, 255)     ~        LightCyan
+# You may use hexadecimal values, too, and you may provide an explicit base-256 color:
+Color: brightwhite          #ffffff                231      White
+# }}}
+
+# Default highlight groups {{{
+verbatim
+if !has('gui_running') && get(g:, '@optionprefix_transp_bg', 0)
+endverbatim
+    # Transparent background
+    Normal           white             none
+    # See `:help terminal-size-color`
+    Terminal         white             none
+verbatim
+else
+endverbatim
+    # Opaque background
+    Normal           white             black
+    Terminal         white             black
+verbatim
+endif
+endverbatim
+
+# Group              Foreground        Background        Attributes
+ColorColumn          fg                black
+Conceal              none              none
+Cursor               white             black
+CursorColumn         white             black
+CursorLine           white             black
+CursorLineNr         white             black
+DiffAdd              white             black             reverse
+DiffChange           white             black             reverse
+DiffDelete           white             black             reverse
+DiffText             white             black             bold,reverse
+Directory            white             black
+EndOfBuffer          white             black
+ErrorMsg             white             black             reverse
+FoldColumn           white             black
+Folded               white             black             italic
+IncSearch            white             black             t=reverse g=standout
+LineNr               white             black
+MatchParen           white             black
+ModeMsg              white             black
+MoreMsg              white             black
+NonText              white             black
+Pmenu                white             black
+PmenuSbar            white             black
+PmenuSel             white             black
+PmenuThumb           white             black
+Question             white             black
+QuickFixLine     ->  Search
+Search               white             black
+SignColumn           white             black
+SpecialKey           white             black
+SpellBad             white             black             s=red
+SpellCap             white             black             s=blue
+SpellLocal           white             black             s=magenta
+SpellRare            white             black             s=cyan reverse
+StatusLine           white             black
+StatusLineNC         white             black
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+TabLine              white             black
+TabLineFill          white             black
+TabLineSel           white             black
+Title                white             black
+VertSplit            white             black
+Visual               white             black
+VisualNOS            white             black
+WarningMsg           white             black
+WildMenu             white             black
+# Other conventional group names (see `:help group-name`)
+Boolean           -> Constant
+Character         -> Constant
+Comment              white             none
+Conditional       -> Statement
+Constant             white             none
+Define            -> PreProc
+Debug             -> Special
+Delimiter         -> Special
+Error                white             black             reverse
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Identifier           white             none
+Ignore               white             none
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+PreProc              white             none
+Repeat            -> Statement
+Special              white             none
+SpecialChar       -> Special
+SpecialComment    -> Special
+Statement            white             none
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Todo                 white             none
+Type                 white             none
+Typedef           -> Type
+Underlined           white             none
+# See `:help lCursor`
+lCursor           -> Cursor
+# See `:help CursorIM`
+CursorIM             none              fg
+# See `:help window-toolbar`
+ToolbarLine          none              black
+ToolbarButton        white             black             bold
+# }}}
+
+# Additional highlight groups {{{
+# Add additional highlight groups here if you want
+# }}}
+
+# Terminal colors {{{
+verbatim
+let g:terminal_ansi_colors = [
+    \ '@guiblack',
+    \ '@guired',
+    \ '@guigreen',
+    \ '@guiyellow',
+    \ '@guiblue',
+    \ '@guimagenta',
+    \ '@guicyan',
+    \ '@guiwhite',
+    \ '@guibrightblack',
+    \ '@guibrightred',
+    \ '@guibrightgreen',
+    \ '@guibrightyellow',
+    \ '@guibrightblue',
+    \ '@guibrightmagenta',
+    \ '@guibrightcyan',
+    \ '@guibrightwhite'
+\ ]
+endverbatim
+# }}}
