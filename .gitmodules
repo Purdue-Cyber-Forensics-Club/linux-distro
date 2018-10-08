@@ -1,0 +1,3 @@
+[submodule "kali-config/common/includes.chroot/usr/local/share/creepy/creepy"]
+	path = kali-config/common/includes.chroot/usr/local/share/creepy/creepy
+	url = https://github.com/jkakavas/creepy

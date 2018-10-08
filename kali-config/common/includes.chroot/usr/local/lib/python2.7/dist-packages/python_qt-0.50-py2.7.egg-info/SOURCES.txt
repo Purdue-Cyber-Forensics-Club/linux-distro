@@ -1,0 +1,5 @@
+Qt/__init__.py
+python_qt.egg-info/PKG-INFO
+python_qt.egg-info/SOURCES.txt
+python_qt.egg-info/dependency_links.txt
+python_qt.egg-info/top_level.txt

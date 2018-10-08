@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-qt
+Version: 0.50
+Summary: Python compatibility wrapper for Qt Bindings (PySide/PyQt4)
+Home-page: https://bitbucket.org/morgul/python-qt
+Author: Christopher S. Case
+Author-email: chris.case@g33xnexus.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

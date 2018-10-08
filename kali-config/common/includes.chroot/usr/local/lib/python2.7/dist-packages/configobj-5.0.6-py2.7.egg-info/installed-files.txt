@@ -1,0 +1,11 @@
+../configobj.py
+../validate.py
+../_version.py
+../configobj.pyc
+../validate.pyc
+../_version.pyc
+SOURCES.txt
+dependency_links.txt
+top_level.txt
+PKG-INFO
+requires.txt
