@@ -18,7 +18,7 @@ kali-linux-forensic
 # kali-linux-pwtools
 kali-linux-top10
 #kali-linux-rfid
-kali-linux-nethunter
+#kali-linux-nethunter
 
 # Graphical desktop
 kali-desktop-gnome
