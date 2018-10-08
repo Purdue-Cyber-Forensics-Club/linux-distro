@@ -1,3 +1,120 @@
 [submodule "kali-config/common/includes.chroot/usr/local/share/creepy"]
 	path = kali-config/common/includes.chroot/usr/local/share/creepy
 	url = https://github.com/jkakavas/creepy
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/airblade/vim-gitgutter"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/airblade/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/bling/vim-bufferline"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/bling/vim-bufferline
+	url = https://github.com/bling/vim-bufferline
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/ap/vim-css-color"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/ap/vim-css-color
+	url = https://github.com/ap/vim-css-color
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/c9s/perlomni.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/c9s/perlomni.vim
+	url = https://github.com/c9s/perlomni.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/dikiaap/minimalist"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/dikiaap/minimalist
+	url = https://github.com/dikiaap/minimalist
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/ervandew/supertab"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/ervandew/supertab
+	url = https://github.com/ervandew/supertab
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/farmergreg/vim-lastplace"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/farmergreg/vim-lastplace
+	url = https://github.com/farmergreg/vim-lastplace
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/flazz/vim-colorschemes"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/flazz/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/godlygeek/tabular"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/godlygeek/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/honza/vim-snippets"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/honza/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/jeffkreeftmeijer/vim-numbertoggle"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/jeffkreeftmeijer/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/jiangmiao/auto-pairs"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/jiangmiao/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/jistr/vim-nerdtree-tabs"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/jistr/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/justinmk/vim-syntax-extra"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/justinmk/vim-syntax-extra
+	url = https://github.com/justinmk/vim-syntax-extra
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/lifepillar/vim-colortemplate"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/lifepillar/vim-colortemplate
+	url = https://github.com/lifepillar/vim-colortemplate
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/lifepillar/vim-solarized8"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/lifepillar/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/mhartington/oceanic-next"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/mhartington/oceanic-next
+	url = https://github.com/mhartington/oceanic-next
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/mhinz/vim-startify"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/mhinz/vim-startify
+	url = https://github.com/mhinz/vim-startify
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/nathanaelkane/vim-indent-guides"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/nathanaelkane/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/csscomplete.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/csscomplete.vim
+	url = https://github.com/othree/csscomplete.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/html5.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/html5.vim
+	url = https://github.com/othree/html5.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/xml.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/othree/xml.vim
+	url = https://github.com/othree/xml.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/ryanoasis/vim-devicons"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/ryanoasis/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/scrooloose/nerdcommenter"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/scrooloose/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/scrooloose/nerdtree"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/scrooloose/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/sheerun/vim-polyglot"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/sheerun/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/shougo/neco-vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/shougo/neco-vim
+	url = https://github.com/shougo/neco-vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/shougo/neoinclude.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/shougo/neoinclude.vim
+	url = https://github.com/shougo/neoinclude.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/Shougo/dein.vim"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/Shougo/dein.vim
+	url = https://github.com/Shougo/dein.vim
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-fugitive"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-sleuth"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-surround"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-unimpaired"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/tpope/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-airline/vim-airline"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-airline/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-airline/vim-airline-themes"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-airline/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-perl/vim-perl"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/vim-perl/vim-perl
+	url = https://github.com/vim-perl/vim-perl
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/w0rp/ale"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/w0rp/ale
+	url = https://github.com/w0rp/ale
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/wokalski/autocomplete-flow"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/wokalski/autocomplete-flow
+	url = https://github.com/wokalski/autocomplete-flow
+[submodule "kali-config/common/includes.chroot/root/.dein/repos/github.com/xuyuanp/nerdtree-git-plugin"]
+	path = kali-config/common/includes.chroot/root/.dein/repos/github.com/xuyuanp/nerdtree-git-plugin
+	url = https://github.com/xuyuanp/nerdtree-git-plugin
