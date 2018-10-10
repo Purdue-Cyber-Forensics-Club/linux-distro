@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Desktop
+dconf write /org/gnome/desktop/interface/text-scaling-facotr 0.85
+dconf write /org/gnome/desktop/interface/font-name "'FreeSans 12'"
+dconf write /org/gnome/desktop/interface/show-battery-percentage true
+dconf write /org/gnome/desktop/interface/cursor-theme "'Paper'"
+dconf write /org/gnome/desktop/interface/icon-theme "'Papirus-Adapta-Nokto'"
+dconf write /org/gnome/desktop/interface/monospace-font-name "'Hack Nerd Font Mono 10'"
+dconf write /org/gnome/desktop/interface/gtk-theme "'Adapta-Nokto-Eta'"
+dconf write /org/gnome/shell/extensions/user-theme/name "'Adapta-Nokto-Eta'"
+
+# Extensions
+# dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'dash-to-dock@micxgx.gmail.com', 'hibernate-status@dromi', 'mediaplayer@patapon.info', 'openweather-extension@jenslody.de', 'sound-output-device-chooser@kgshank.net', 'suspend-button@laserb', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'no-symbolic-icons@evanwelsh.com', 'status-area-horizontal-spacing@mathematical.coffee.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']"
+
+dconf write /org/gnome/desktop/wb/preferences/title-bar-font "'FreeSans 12'"
+
+# Wallpaper
+#dconf write /org/gnome/desktop/background/picture-uri "'file:///home/max/Pictures/Wallpapers/Wallpaper.jpg'"
+#dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/max/Pictures/Wallpapers/Wallpaper.jpg'"
+
+# Gedit
+dconf write /org/gnome/gedit/plugins/active-plugins "['spell', 'docinfo', 'time', 'modelines', 'filebrowser']"
+dconf write /org/gnome/gedit/preferences/editor/highlight-current-line true
+dconf write /org/gnome/gedit/preferences/editor/display-right-margin true
+dconf write /org/gnome/gedit/preferences/editor/display-overview-map true
+dconf write /org/gnome/gedit/preferences/editor/bracket-matching true
+dconf write /org/gnome/gedit/preferences/editor/scheme "'adapta'"
+dconf write /org/gnome/gedit/preferences/editor/display-line-numbers true
+dconf write /org/gnome/gedit/preferences/editor/auto-indent true
+
+
+
