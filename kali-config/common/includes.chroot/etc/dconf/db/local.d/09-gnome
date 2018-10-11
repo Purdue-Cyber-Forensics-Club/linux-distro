@@ -1,0 +1,42 @@
+# [org/gnome/desktop/background]
+# picture-uri='file:///usr/local/share/backgrounds/wallpaper.jpg'
+# picture-options='scaled'
+# primary-color='000000'
+# secondary-color='FFFFFF'
+
+[org/gnome/desktop/interface]
+text-scaling-factor=0.85
+font-name='FreeSans 12'
+show-battery-percentage=true
+cursor-theme='Paper'
+icon-theme='Papirus-Adapta-Nokto'
+monospace-font-name='Hack Nerd Font Mono 10'
+gtk-theme='Adapta-Nokto-Eta'
+
+[org/gnome/shell/extensions/user-theme]
+name='Adapta-Nokto-Eta'
+
+[org/gnome/desktop/wb/preferences]
+title-bar-font='FreeSans 12'
+
+[org/gnome/gedit/plugins]
+active-plugins=['spell', 'docinfo', 'time', 'modelines', 'filebrowser']
+
+[org/gnome/gedit/preferences/editor]
+highlight-current-line=true
+display-right-margin=true
+display-overview-map=true
+bracket-matching=true
+scheme='adapta'
+display-line-numbers=true
+auto-indent=true
+
+
+## Wallpaper
+# dconf write /org/gnome/desktop/background/picture-uri "'file:///home/max/Pictures/Wallpapers/Wallpaper.jpg'"
+# dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/max/Pictures/Wallpapers/Wallpaper.jpg'"
+
+## Extensions
+# dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'dash-to-dock@micxgx.gmail.com', 'hibernate-status@dromi', 'mediaplayer@patapon.info', 'openweather-extension@jenslody.de', 'sound-output-device-chooser@kgshank.net', 'suspend-button@laserb', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'no-symbolic-icons@evanwelsh.com', 'status-area-horizontal-spacing@mathematical.coffee.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com']
+
+

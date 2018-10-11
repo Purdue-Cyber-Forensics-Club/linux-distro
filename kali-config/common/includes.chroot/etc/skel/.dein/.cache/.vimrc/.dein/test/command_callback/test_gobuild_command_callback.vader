@@ -1,0 +1,19 @@
+Before:
+  call ale#assert#SetUpLinterTest('go', 'gobuild')
+
+  WithChainResults ['/foo/bar', '/foo/baz']
+
+After:
+  call ale#assert#TearDownLinterTest()
+
+Execute(The default commands should be correct):
+  AssertLinter 'go',
+  \ 'cd ' . ale#Escape(expand('%:p:h')) . ' && '
+  \   . 'go test -c -o /dev/null ./'
+
+Execute(Extra options should be supported):
+  let g:ale_go_gobuild_options = '--foo-bar'
+
+  AssertLinter 'go',
+  \ 'cd ' . ale#Escape(expand('%:p:h')) . ' && '
+  \   . 'go test --foo-bar -c -o /dev/null ./'
