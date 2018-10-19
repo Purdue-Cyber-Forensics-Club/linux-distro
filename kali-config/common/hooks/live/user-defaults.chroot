@@ -7,3 +7,4 @@ sed -i -- 's/bash/zsh/g' /etc/passwd
 
 # Delete dconf profile to regenerate it on boot.
 rm /etc/dconf/db/local
+dbus-launch --exit-with-session dconf update
