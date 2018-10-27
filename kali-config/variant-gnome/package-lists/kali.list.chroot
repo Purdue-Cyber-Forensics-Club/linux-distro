@@ -23,6 +23,9 @@ kali-linux-top10
 # Graphical desktop
 kali-desktop-gnome
 
+# Graphics support
+nvidia-driver
+
 # Other applications
 tlp
 virtualbox-guest-dkms
