@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Set default shell to ZSH
+sed -i -- 's/bash/zsh/g' /etc/default/useradd
+sed -i -- 's/bash/zsh/g' /etc/adduser.conf
+sed -i -- 's/bash/zsh/g' /etc/passwd
+
+# Delete dconf profile to regenerate it on boot.
+rm /etc/dconf/db/local
+dbus-launch --exit-with-session dconf update
