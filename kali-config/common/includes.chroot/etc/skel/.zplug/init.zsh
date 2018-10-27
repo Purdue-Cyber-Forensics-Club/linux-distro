@@ -1,0 +1,1 @@
+/home/max/.zplug/repos/zplug/zplug/init.zsh

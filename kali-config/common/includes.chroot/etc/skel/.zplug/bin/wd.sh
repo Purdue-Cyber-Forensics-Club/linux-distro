@@ -1,0 +1,1 @@
+/home/max/.zplug/repos/mfaerevaag/wd/wd.sh
