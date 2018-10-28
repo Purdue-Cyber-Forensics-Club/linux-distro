@@ -6,7 +6,7 @@ primary-color='000000'
 secondary-color='FFFFFF'
 
 [org/gnome/desktop/screensaver]
-picture-uri='file:///usr/share/backgrounds/gnome/Iceland.jpg'
+picture-uri='file:///usr/share/backgrounds/gnome/RiverCity.jpg'
 lock-enabled=false
 
 [org/gnome/desktop/interface]
