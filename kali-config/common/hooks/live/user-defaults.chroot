@@ -9,7 +9,6 @@ sed -i -- 's/bash/zsh/g' /etc/passwd
 sed -i -- 's/8Ab05sVQ4LLps/BVJM36ca1Ebck/g' /lib/live/config/0030-live-debconfig_passwd
 
 # Change the font on the lock screen.
-
 sed -i -- 's/cantarell/FreeSans/g' /usr/share/gnome-shell/theme/gnome-shell.css
 
 # Delete dconf profile to regenerate it on boot.

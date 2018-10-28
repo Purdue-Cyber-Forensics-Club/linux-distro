@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=VimInstall
+GenericName=A script that starts a quick vim installation
+Comment=Used to generate Dein caches
+Exec=vim +q
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
