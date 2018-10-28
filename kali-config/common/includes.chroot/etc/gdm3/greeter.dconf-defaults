@@ -1,0 +1,29 @@
+# This comment exists so Vim can detect conf filetype.
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/MilkyArm.jpg'
+picture-options='zoom'
+primary-color='000000'
+secondary-color='FFFFFF'
+
+[org/gnome/desktop/interface]
+text-scaling-factor=0.85
+document-font-name='FreeSans 12'
+font-name='FreeSans 12'
+show-battery-percentage=true
+cursor-theme='Paper'
+icon-theme='Papirus-Adapta-Nokto'
+monospace-font-name='Hack Nerd Font Mono 10'
+gtk-theme='Adapta-Nokto-Eta'
+
+[org/gnome/shell/extensions/user-theme]
+name='Adapta-Nokto-Eta'
+
+[org/gnome/desktop/wb/preferences]
+title-bar-font='FreeSans 12'
+
+[org/gnome/desktop/wm/preferences]
+title-bar-font='FreeSans 12'
+
+[org/gnome/login-screen]
+logo='/usr/share/icons/hicolor/48x48/emblems/emblem-kali.png'
+fallback-logo='/usr/share/icons/hicolor/48x48/emblems/emblem-kali.png'
