@@ -22,6 +22,14 @@ gtk-theme='Adapta-Nokto-Eta'
 [org/gnome/shell/extensions/user-theme]
 name='Adapta-Nokto-Eta'
 
+[org/gnome/shell/extensions/dash-to-dock]
+running-indicator-style='CILIORA'
+customize-alphas=true
+max-alpha=0.9
+min-alpha=0.6
+height-fraction=0.9
+transparency-mode='DYNAMIC'
+
 [org/gnome/desktop/wb/preferences]
 title-bar-font='FreeSans 12'
 
