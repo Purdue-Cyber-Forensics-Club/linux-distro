@@ -1,9 +1,12 @@
 #!/bin/bash
 
-# Set default shell to ZSH
+# Set default shell to ZSH.
 sed -i -- 's/bash/zsh/g' /etc/default/useradd
 sed -i -- 's/bash/zsh/g' /etc/adduser.conf
 sed -i -- 's/bash/zsh/g' /etc/passwd
+
+# Change the default live password ('live') to 'purduecfc'.
+sed -i -- 's/8Ab05sVQ4LLps/BVJM36ca1Ebck/g' /lib/live/config/0030-live-debconfig_passwd
 
 # Delete dconf profile to regenerate it on boot.
 rm /etc/dconf/db/local
