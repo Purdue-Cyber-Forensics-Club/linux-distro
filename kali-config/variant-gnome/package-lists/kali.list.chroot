@@ -37,6 +37,11 @@ zsh
 torbrowser-launcher
 python-qt4
 python3-pip
+htop
+iperf
+filezilla
+hexchat
+qbittorrent
 
 # Graphical desktop
 kali-desktop-gnome
