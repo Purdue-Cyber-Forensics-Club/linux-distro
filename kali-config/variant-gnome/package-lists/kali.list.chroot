@@ -20,9 +20,6 @@ kali-linux-top10
 #kali-linux-rfid
 #kali-linux-nethunter
 
-# Graphical desktop
-kali-desktop-gnome
-
 # Graphics support
 nvidia-driver
 
@@ -40,3 +37,6 @@ zsh
 torbrowser-launcher
 python-qt4
 python3-pip
+
+# Graphical desktop
+kali-desktop-gnome
