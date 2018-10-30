@@ -2,9 +2,11 @@
 This is a custom-spun version of Kali Linux containing tools and configurations
 useful for cyber security.
 
+Grab the [latest version](https://github.com/Purdue-Cyber-Forensics-Club/linux-distro/releases)
+
 ![Distribution Slideshow](https://github.com/Purdue-Cyber-Forensics-Club/linux-distro/raw/master/KaliSlideshow.gif)
 
-## Feature Overview
+## Features
  - Uses ZSH instead of Bash by default
  - Includes a more friendly Vim with plugins (See [Neovim Studio](https://github.com/Maxattax97/Neovim-Studio), the Vim Studio Lite edition)
  - Much improved UX and aesthetics
@@ -22,10 +24,7 @@ cd linux-distro/
 ```
 
 ## Building
-Currently, only Gnome 3.x is stable. In the future, lightweight alternatives
-(like LXQt) will be available.
-
-To build with Gnome 3.x:
+Currently, only Gnome 3.x is stable. To build with Gnome 3.x:
 ```
 ./build.sh --verbose
 ```
@@ -36,9 +35,10 @@ To build with variants:
 ```
 
 Variants include `kde`, `xfce`, `mate`, `lxde`, `i3wm`, `e17`. The `light`
-variant is not expected to function properly.
+variant is not expected to function properly. In the future, we hope to add
+support for LXQt among other desktop environments.
 
-## Overview
+## Contributing
 To add packages, see the list in `kali-config/variant-gnome/package-lists/kali.list.chroot`
 and add or remove your own entries.
 
